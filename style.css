@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#cart {
+  max-width: 500px;
+}
+#cart img {
+  width: 150px;
+  height: 100px;
+}
+@media (max-width: 760px) {
+  #cart {
+    max-width: 400px;
+  }
+  #cart img {
+    width: 100%;
+    height: 240px;
+  }
+}
